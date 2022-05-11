@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
     list-style: none;
     box-sizing: border-box;
     font-family: 'Irish Grover', cursive;
@@ -24,8 +25,8 @@ a{
     position: absolute;
     width: 886px;
     height: 823px;
-    left: 482px;
-    top: 64px;
+    margin-left: 482px;
+    margin-top: 60px;
     border-radius: 50%;
 }
 
@@ -43,8 +44,8 @@ a{
     position: absolute;
     width: 432px;
     height: 800px;
-    left: 29px;
-    top: 271px;
+    margin-left: 29px;
+    margin-top: 400px;
     font-size: normal;
     font-weight: 400;
     font-size: 20px;
@@ -132,9 +133,9 @@ h1{
 .parafphoto{
     color: white;
     border-right: 3px solid red;
-    height: 650px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    height: 600px;
+    margin-top: 50px;
+    margin-bottom: 200px;
     width: 60%;
     padding-left: 10px;
     padding-right: 10px;
@@ -142,11 +143,83 @@ h1{
 .avis{
     color: white;
     width: 40%;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 200px;
     padding-left: 10px;
     padding-right: 10px;
     justify-items: auto;
 }
+
+/*************Footer*********/
+
+.carroussel{
+    display: flex;
+    margin-top: 10px;
+}
+footer {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-left: 2%;
+    padding-right: 5px;
+}
+
+    form {
+        display: none;
+        border-radius:10px;
+        background-color:#f2f2f2;
+        padding:20px;
+        width: 100%;
+        margin:0 auto;
+      }
+
+ 
+    .buttonForm button{
+        margin-top: 250px;
+        background-color: red;
+        cursor: pointer;
+        height: 50px;
+        width: 200px;
+        margin: 0;
+        text-align: center;
+    }
+    
+      h3  {
+        color: #ffc800;
+        width: 100%;
+      }
+  
+  input[type=text], textarea, input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    resize: vertical;
+  }
+  label{margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;}
+  
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: red;
+  }
+
+
+  
+
 
 

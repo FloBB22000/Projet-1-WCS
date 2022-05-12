@@ -166,7 +166,6 @@ h1{
     margin-bottom: 200px;
     padding-left: 10px;
     padding-right: 10px;
-    justify-items: auto;
 }
 
 /*************Footer*********/
@@ -218,9 +217,12 @@ footer {
     margin-left: 0px;
     resize: vertical;
   }
-  label{margin-right: 0px;
+
+label{
+    margin-right: 0px;
     margin-left: 0px;
-    width: 100%;}
+    width: 100%;
+}
   
   input[type=submit] {
     background-color: black;

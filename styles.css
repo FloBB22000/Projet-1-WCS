@@ -123,6 +123,25 @@ h1{
     align-items: center; 
 }
 
+.resum button {
+    background-color: red;
+    margin-top: 55px;
+    border: none;
+    cursor:pointer;
+}
+
+.presum {
+    display: none;
+    margin-top: 20px;
+    color: black;
+    background-color: red;
+    width: auto;
+    height: 150px;
+    text-align: center;
+    align-items: center; 
+
+}
+
 .repliques1{
     display: flex;
     justify-content: space-between;

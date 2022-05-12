@@ -9,16 +9,15 @@ console.log(buttonenvoyer);
 
 buttonForm.addEventListener("click", function(){
     form.style.display="block";
-});
+})
 
 buttonenvoyer.addEventListener("click", function(){
     form.style.display="none";
-});
-
+})
 const resum = document.querySelector('.resum');
 console.log(resum);
 
-const resum1= document.querySelector('.presum');
+const resum1 = document.querySelector('.presum');
 console.log(resum1);
 
 resum.addEventListener("click", function(){

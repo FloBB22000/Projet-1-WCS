@@ -179,7 +179,7 @@ footer {
     padding-right: 5px;
 }
 
-    form {
+    .ajout-avis {
         display: none;
         border-radius:10px;
         background-color:#f2f2f2;
@@ -297,6 +297,98 @@ label{
   .prev {
       left: 5em;
     }
+
+/************Page quizz**********/
+
+.quizz{
+  background-image: url("images/imgcine4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  color: red;
+  font-family: 'Irish Grover', cursive;
+	font-size: 14px;
+}
+
+.container-quizz {
+	width: 60%;
+	background: white;
+	margin: 20px auto;
+	overflow: auto;
+	padding: 25px;
+  position: fixed;
+  top: -1200px;
+  left: 20%;
+  transition: top 2s;
+}
+
+.visible {
+  top: 0;
+}
+
+.header-quizz {
+	background-color: black;
+	padding: 10px 10px;
+	text-align: center;
+	border-bottom: #e2e2e2 dashed 1px;
+}
+
+.header-quizz h1 {
+	margin: 0;
+	padding: 0;
+  border: none;
+}
+
+.header-quizz p {
+	padding: 0;
+	margin-top: 5px;
+	color: red;
+}
+
+.section-quizz {
+	min-height: 400px;
+}
+
+.h3-quizz {
+  color: red;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.footer-quizz {
+	text-align: center;
+}
+
+.input-button-quizz {
+	text-transform: uppercase;
+	background: #27e6c1;
+	border: 10px;
+	color: #fff;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+input-submit-quizz {
+	background: red;
+	border: 0;
+	color: black;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+#results h3 {
+	background: red;
+	padding: 10px;
+	margin-top: 10px 0;
+}
+
+#results span {
+	color: black;
+	font-weight: bold;
+}
 
 
   

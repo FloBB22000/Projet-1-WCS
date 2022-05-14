@@ -159,7 +159,7 @@ h1{
     padding-left: 10px;
     padding-right: 10px;
 }
-.imagefunes1{
+.imagefunes1 , .imagebronzes1 , .imagecite1{
   position: absolute;
   width: 197px;
   height: 139px;
@@ -167,7 +167,7 @@ h1{
   top: 300px;
   border-radius: 50%;
 }
-.imagefunes2{
+.imagefunes2 , .imagebronzes2 , .imagecite2{
   position: absolute;
   width: 197px;
   height: 139px;
@@ -175,23 +175,23 @@ h1{
   top: 450px;
   border-radius: 50%;
 }
-.imagefunes3{
+.imagefunes3 , .imagebronzes3 , .imagecite3{
   position: absolute;
   width: 197px;
   height: 139px;
   left: 50px;
-  top: 550px;
+  top: 580px;
   border-radius: 50%;
 }
-.imagefunes4{
+.imagefunes4 , .imagebronzes4 , .imagecite4{
   position: absolute;
   width: 197px;
   height: 139px;
   left: 500px;
-  top: 700px;
+  top: 720px;
   border-radius: 50%;
 }
-.imagefunes5{
+.imagefunes5 , .imagebronzes5 , .imagecite5{
   position: absolute;
   width: 197px;
   height: 139px;
@@ -210,6 +210,17 @@ h1{
   align-items: center;
   text-align: center;
 }
+.parafphotocite1{
+  color: white;
+  position: absolute;
+  width: 400px;
+  left: 270px;
+  top: 330px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
 .parafphoto2{
   color: white;
   position: absolute;
@@ -221,12 +232,45 @@ h1{
   align-items: center;
   text-align: center;
 }
+.parafphoto2-bronzes{
+  color: white;
+  position: absolute;
+  width: 300px;
+  left: 180px;
+  top: 460px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.parafphotocite2{
+  color: white;
+  position: absolute;
+  width: 300px;
+  left: 180px;
+  top: 480px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
 .parafphoto3{
   color: white;
   position: absolute;
   width: 400px;
   left: 250px;
   top: 600px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.parafphotocite3{
+  color: white;
+  position: absolute;
+  width: 400px;
+  left: 250px;
+  top: 630px;
   line-height: 25px;
   display: flex;
   align-items: center;
@@ -243,11 +287,44 @@ h1{
   align-items: center;
   text-align: center;
 }
+.parafphotobronzes4{
+  color: white;
+  position: absolute;
+  width: 400px;
+  left: 110px;
+  top: 750px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.parafphotocite4{
+  color: white;
+  position: absolute;
+  width: 400px;
+  left: 95px;
+  top: 780px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
 .parafphoto5{
   color: white;
   position: absolute;
   width: 400px;
   left: 800px;
+  top: 700px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.parafphotobronzes5{
+  color: white;
+  position: absolute;
+  width: 400px;
+  left: 850px;
   top: 700px;
   line-height: 25px;
   display: flex;

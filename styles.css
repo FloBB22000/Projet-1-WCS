@@ -159,6 +159,112 @@ h1{
     padding-left: 10px;
     padding-right: 10px;
 }
+.imagefunes1{
+  position: absolute;
+  width: 197px;
+  height: 139px;
+  left: 50px;
+  top: 300px;
+  border-radius: 50%;
+}
+.imagefunes2{
+  position: absolute;
+  width: 197px;
+  height: 139px;
+  left: 500px;
+  top: 450px;
+  border-radius: 50%;
+}
+.imagefunes3{
+  position: absolute;
+  width: 197px;
+  height: 139px;
+  left: 50px;
+  top: 550px;
+  border-radius: 50%;
+}
+.imagefunes4{
+  position: absolute;
+  width: 197px;
+  height: 139px;
+  left: 500px;
+  top: 700px;
+  border-radius: 50%;
+}
+.imagefunes5{
+  position: absolute;
+  width: 197px;
+  height: 139px;
+  left: 900px;
+  top: 550px;
+  border-radius: 50%;
+}
+.parafphoto1{
+  color: white;
+  position: absolute;
+  width: 400px;
+  left: 270px;
+  top: 350px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.parafphoto2{
+  color: white;
+  position: absolute;
+  width: 400px;
+  left: 180px;
+  top: 480px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.parafphoto3{
+  color: white;
+  position: absolute;
+  width: 400px;
+  left: 250px;
+  top: 600px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.parafphoto4{
+  color: white;
+  position: absolute;
+  width: 400px;
+  left: 150px;
+  top: 750px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.parafphoto5{
+  color: white;
+  position: absolute;
+  width: 400px;
+  left: 800px;
+  top: 700px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.paraf6{
+  color: white;
+  position: absolute;
+  width: 400px;
+  left: 925px;
+  top: 800px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
 .avis{
     color: white;
     width: 40%;
@@ -167,6 +273,7 @@ h1{
     padding-left: 10px;
     padding-right: 10px;
 }
+
 
 /*************Footer*********/
 
@@ -308,14 +415,13 @@ label{
   font-family: 'Irish Grover', cursive;
 	font-size: 14px;
 }
-
+/********j'ai modifié la position en relative car la page du quizz ne défilé pas ******/
 .container-quizz {
 	width: 60%;
 	background: white;
-	margin: 20px auto;
 	overflow: auto;
 	padding: 25px;
-  position: fixed;
+  position: relative;
   top: -1200px;
   left: 20%;
   transition: top 2s;
@@ -362,16 +468,17 @@ label{
 	text-align: center;
 }
 
-.input-button-quizz {
+.click-quizz {
 	text-transform: uppercase;
-	background: #27e6c1;
+	background: red;
+  margin-top: 30px;
 	border: 10px;
-	color: #fff;
+	color: black;
 	padding: 5px 10px;
 	cursor: pointer;
 }
 
-input-submit-quizz {
+.input-submit-quizz {
 	background: red;
 	border: 0;
 	color: black;
@@ -380,6 +487,7 @@ input-submit-quizz {
 }
 
 #results h3 {
+  color: black;
 	background: red;
 	padding: 10px;
 	margin-top: 10px 0;

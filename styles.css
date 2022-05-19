@@ -135,7 +135,7 @@ h1{
     margin-top: 20px;
     color: black;
     background-color: red;
-    width: auto;
+    width: 100%;
     height: 150px;
     text-align: center;
     align-items: center; 
@@ -149,206 +149,45 @@ h1{
     margin: auto;
 }
 
-.parafphoto{
-    color: white;
-    border-right: 3px solid red;
-    height: 600px;
-    margin-top: 50px;
-    margin-bottom: 200px;
-    width: 60%;
-    padding-left: 10px;
-    padding-right: 10px;
+.repliquesbis {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 20px auto;
 }
-.imagefunes1 , .imagebronzes1 , .imagecite1{
-  position: absolute;
+
+.left-part {
+  width: 60%;
+  padding: 10px;
+  border-right: red 3px solid;
+}
+
+.txt-picture-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.right-part {
+  padding: 10px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgbis {
   width: 197px;
   height: 139px;
-  left: 50px;
-  top: 300px;
   border-radius: 50%;
 }
-.imagefunes2 , .imagebronzes2 , .imagecite2{
-  position: absolute;
-  width: 197px;
-  height: 139px;
-  left: 500px;
-  top: 450px;
-  border-radius: 50%;
-}
-.imagefunes3 , .imagebronzes3 , .imagecite3{
-  position: absolute;
-  width: 197px;
-  height: 139px;
-  left: 50px;
-  top: 580px;
-  border-radius: 50%;
-}
-.imagefunes4 , .imagebronzes4 , .imagecite4{
-  position: absolute;
-  width: 197px;
-  height: 139px;
-  left: 500px;
-  top: 720px;
-  border-radius: 50%;
-}
-.imagefunes5 , .imagebronzes5 , .imagecite5{
-  position: absolute;
-  width: 197px;
-  height: 139px;
-  left: 900px;
-  top: 550px;
-  border-radius: 50%;
-}
-.parafphoto1{
-  color: white;
-  position: absolute;
-  width: 400px;
-  left: 270px;
-  top: 350px;
-  line-height: 25px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-.parafphotocite1{
-  color: white;
-  position: absolute;
-  width: 400px;
-  left: 270px;
-  top: 330px;
-  line-height: 25px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-.parafphoto2{
-  color: white;
-  position: absolute;
-  width: 400px;
-  left: 180px;
-  top: 480px;
-  line-height: 25px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-.parafphoto2-bronzes{
-  color: white;
-  position: absolute;
-  width: 300px;
-  left: 180px;
-  top: 460px;
-  line-height: 15px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-.parafphotocite2{
-  color: white;
-  position: absolute;
-  width: 300px;
-  left: 180px;
-  top: 480px;
-  line-height: 15px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-.parafphoto3{
-  color: white;
-  position: absolute;
-  width: 400px;
-  left: 250px;
-  top: 600px;
-  line-height: 25px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-.parafphotocite3{
-  color: white;
-  position: absolute;
-  width: 400px;
-  left: 250px;
-  top: 630px;
-  line-height: 25px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-.parafphoto4{
-  color: white;
-  position: absolute;
-  width: 400px;
-  left: 150px;
-  top: 750px;
-  line-height: 25px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-.parafphotobronzes4{
-  color: white;
-  position: absolute;
-  width: 400px;
-  left: 110px;
-  top: 750px;
-  line-height: 25px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-.parafphotocite4{
-  color: white;
-  position: absolute;
-  width: 400px;
-  left: 95px;
-  top: 780px;
-  line-height: 25px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-.parafphoto5{
-  color: white;
-  position: absolute;
-  width: 400px;
-  left: 800px;
-  top: 700px;
-  line-height: 25px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-.parafphotobronzes5{
-  color: white;
-  position: absolute;
-  width: 400px;
-  left: 850px;
-  top: 700px;
-  line-height: 25px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-.paraf6{
-  color: white;
-  position: absolute;
-  width: 400px;
-  left: 925px;
-  top: 800px;
-  line-height: 25px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-.avis{
-    color: white;
-    width: 40%;
-    margin-top: 50px;
-    margin-bottom: 200px;
-    padding-left: 10px;
-    padding-right: 10px;
+
+.avisbis {
+  width: 100%;
+  text-align: justify;
 }
 
 
@@ -425,6 +264,7 @@ label{
   
   .container3 {
     margin: 0 auto;
+    margin-top: 180px;
     width: 250px;
     height: 200px;
     position: relative;
@@ -435,7 +275,7 @@ label{
     height: 100%;
     width: 100%;
     position: absolute;
-    transform-style: preserve-3d;
+    transform-style:preserve-3d;
     transition: transform 1s;
   }
   
@@ -573,6 +413,31 @@ label{
 #results span {
 	color: black;
 	font-weight: bold;
+}
+
+/*******Responsive*********/
+
+@media screen and (max-width: 700px){
+  .left-part{
+    width: auto;
+  }
+  .repliquesbis{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .right-part{
+    width: 100%;
+  }
+  .next, .prev{
+    top: 1538px;
+  }
+  .buttonForm{
+    width: 100%;
+  }
+  .buttonForm button{
+    width: 100%;
+  }
 }
 
 
